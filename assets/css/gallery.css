@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+  
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+@media screen and (max-width: 800px) {
+    .column {
+      width: 100%;
+    }
+}
+  
+img {
+    box-shadow: 3px 3px 1px grey;
+     max-width: 100%; 
+     width:  619px;
+     height: 413px;
+}
+  

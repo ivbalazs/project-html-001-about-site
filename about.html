@@ -1,96 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" href="/assets/css/about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
-<style>
-
-.ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-.li {
-  float: left;
-}
-
-.li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
 
 
-</style>
 <body>
     <nav id="nav">
         <ul class="ul">
-            <li class="li"><a class="active" href="index.html">Home</a></li>
+            <li class="li"><a href="index.html">Home</a></li>
             <li class="li"><a href="works.html">Works</a></li>
             <li class="li"><a href="gallery.html">Gallery</a></li>
             <li class="li"><a href="about.html">About</a></li>
-          </ul>
-          
+        </ul>
+
     </nav>
-    <header align="left">
-        <h1>szabadon választott cím balra igazítva</h1>
+    <header>
+        <h1>Bemutatása Wikipédia alapján:</h1>
     </header>
 
     <main>
 
-        <img src="images/kep1.jpg" width="400" height="345">
+        <h2>A kenyai születésű Tokmac Nguen ötéves korában került Norvégiába. A Strømsgodset IF csapatában nevelkedett,
+            majd mutatkozott be a norvég első osztályban 2011. augusztus 28-án. 2019 januárjában a Ferencváros igazolta
+            le. A bajnokságban 12 mérkőzésen 4 gólt szerzett, az aranyérmes csapat tagja lett.
+            <p>
+                2019. július 10-én a Bajnokok Ligája-selejtező első körében a bolgár Ludogorec együttese elleni első
+                mérkőzésén ő szerezte az első gólt (2–1). A visszavágón Razgradban – a 3–2-re megnyert mérkőzésen – a
+                harmadik ferencvárosi gólt ő lőtte. Július 30-án a máltai Valletta elleni idegenbeli 1–1-re végződő
+                mérkőzésen az egyenlítő gólt ő szerezte. Az Európa-liga csoportkörébe jutó csapatban mind a hat
+                mérkőzésen pályára lépett, a nemzetközi kupában összesen 14 mérkőzésen négyszer volt eredményes. A
+                2019-2020-as bajnoki idény őszi felében 13 találkozón ötször talált az ellenfelek kapujába, a Nemzeti
+                Sport osztályzatai alapján ő lett a bajnokság legjobb mezőnyjátékosa. Az idényt harminc mérkőzésen
+                szerzett nyolc góllal zárta és újabb bajnoki címet szerzett csapatával, ezenfelül bekerült a Nemzeti
+                Sport év végi álomcsapatába is.
+            </p>
+            <p>
+                A 2020–2021-es Bajnokok Ligája selejtezőjében duplázott a svéd Djurgårdens ellen, míg a skót Celtic
+                elleni párharc során ő szerezte csapata győzelmet és továbbjutást eredményező gólját.
+            </p>
+            <p>
+                A 2020-2021-es bajnokság 4. fordulójában mesterhármast szerzett a Paks ellen 5–0-ra megnyert mérkőzésen.
+                A 8. fordulóban lejátszott és 2–0-ra megnyert Újpest elleni rangadón ő szerezte csapata első gólját.
+                Október 28-án gólt lőtt a Dinamo Kijev elleni 2–2-es hazai Bajnokok Ligája csoportmérkőzésen.
+            </p>
 
-        <h2>Hobbim</h2>
+        </h2>
+        <img src="images/about.jpg">
 
+        <section>
+            <h2>Hobbija</h2>
             <ul>
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
-              </ul>  
-              
-              <h2>Erősségeim</h2>
-              
-              <ol>
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
-              </ol> 
-      
-    <h2>Send e-mail to someone@example.com:</h2>
+                <li><b>Gombfoci</b></li>
+                <li><b>Csócsó</b></li>
+                <li><b>Lábtengó</b></li>
+            </ul>
 
-    <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-    Name:<br>
-    <input type="text" name="Név" minlength="5" required><br>
-    E-mail:<br>
-    <input type="email" name="levél" required><br>
-    Comment:<br>
-    <textarea name="Üzenet" id="" cols="30" rows="10" minlength="20" required></textarea><br><br>
-    <input type="submit" value="Küldeni">
-    <input type="reset" value="Törölni"><br><br>
-    </form>
+            <h2>Erősségei</h2>
 
+            <ol>
+                <li><b>Gömb érzéke</b></li>
+                <li><b>Tud gyorsan futni úgy, hogy közben nem esik el</b></li>
+                <li><b>Lát a páyán</b></li>
+            </ol>
+        </section>
+
+
+        <section>
+            <h2>Itt lehet nekem levelet küldeni és biztosan nem olvasom el:)</h2>
+            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                <b>Név:</b>
+                <br>
+                <input type="text" name="Név" minlength="5" required><br>
+                <b>E-mail cím:</b>
+                <br>
+                <input type="email" name="levél" required><br>
+                <b>Levél tartalma:</b>
+                <br>
+                <textarea name="Üzenet" id="" cols="30" rows="10" minlength="20" required></textarea><br><br>
+                <input type="submit" value="Küldeni">
+                <input type="reset" value="Törölni"><br><br>
+            </form>
+        </section>
 
     </main>
-    
-    <section></section>
-    <footer>
-        
-        <a href="#nav"> 
-            <button>Felső menübe</button>
-        </a>
 
+    <footer>
+        <a href="#nav">
+            <button><i class="fas fa-level-up-alt fa-2x" style="color:green"></i></button>
+        </a>
     </footer>
 
 </body>
+
 </html>

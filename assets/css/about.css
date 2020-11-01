@@ -1,0 +1,57 @@
+body {
+  background-color: #f2ffe5
+}
+
+body, button, input {
+  font-family: 'Cormorant Upright', serif;
+}
+
+h1 {
+  text-align: left;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: green;
+    padding: 0px;
+}
+  
+.li {
+    float: left;
+}
+  
+.li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;    
+    font-size: 27px;
+}
+  
+li a:hover {
+    background-color: darkgreen;
+}
+ 
+img {
+     box-shadow: 3px 3px 1px grey;
+     max-width: 100%; 
+     width:  619px;
+     height: 413px;
+}
+
+input[type=submit], input[type=reset] {
+  background-color:green;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  letter-spacing: 1px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+  background-color: darkgreen;
+}

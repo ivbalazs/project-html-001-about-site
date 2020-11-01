@@ -1,167 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/gallery.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
-<style>
- ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
-}
-
-img {
-  box-shadow: 5px 5px 1px grey;
-}
-
-
-</style>
 <body>
 
     <nav id="nav">
         <ul>
-            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="works.html">Works</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="about.html">About</a></li>
-          </ul>
-          
+        </ul>
+
     </nav>
-    <header align="left">
-        <h1>szabadon választott cím balra igazítva</h1>
+    <header>
+        <h1>Pár hangulat kép:</h1>
     </header>
 
- <main>
+    <main>
+        <section>
+            <div class="row">
+                <div class="column">
+                    <img src="images/gallery_1.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_2.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_3.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_4.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_5.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_6.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_7.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_8.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_9.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_10.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_11.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_12.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_13.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_14.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_15.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_16.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_17.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_18.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_19.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_20.jpg">
+                </div>
+                <div class="column">
+                    <img src="images/gallery_21.jpg">
+                </div>
+            </div>
+        </section>
 
-    <h2>Responsive "Side-by-Side" Images</h2>
-<p>How to create side-by-side images with the CSS float property. On screens that are 500px wide or less, the images will stack on top of each other instead of next to each other:</p>
-<p>Resize the browser window to see the effect.</p>
+    </main>
 
-<div class="row">
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="images/kep1.jpg" alt="" style="width:100%">
-  </div>
-
-</div>
-
-
-
-</main>
-
-<section></section>
-<footer>
-    
-    <a href="#nav"> 
-        <button>Felső menübe</button>
-    </a>
-
-</footer>
-
-
+    <footer>
+        <a href="#nav">
+            <button><i class="fas fa-level-up-alt fa-2x" style="color:green"></i></button>
+        </a>
+    </footer>
 
 </body>
+
 </html>

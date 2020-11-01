@@ -1,126 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
-<style>
 
-            img.images {
-                height: 100%;
-                width: 100%;
-            }
-            #leftbox { 
-                float:left;  
-                width:33%; 
-                height:50px; 
-                border: 1px outset black;
-                text-align: center;
-            } 
-            #middlebox{ 
-                float:left;  
-                width:33%; 
-                height:50px; 
-                border: 1px outset black;
-                text-align: center;
-
-            } 
-
-            #rightbox{ 
-            float: left;; 
-            width:33%; 
-            height:50px; 
-            border: 1px outset black;
-                text-align: center;
-
-            } 
-
- ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-
-
-</style>
 <body>
-
-    
     <nav id="nav">
         <ul>
-            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="works.html">Works</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="about.html">About</a></li>
-          </ul>
-          
+        </ul>
+
     </nav>
-    <header align="left">
-        <h1>szabadon választott cím balra igazítva</h1>
+    <header>
+        <h1>Egy valós személy kitalált bemutatkozó gyakorló oldala! </h1>
     </header>
 
-    
     <main>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur minima quisquam voluptas aliquam vero, totam doloribus natus corporis, molestiae omnis, culpa rerum sapiente nostrum corrupti aspernatur dolore minus veniam consequuntur!
 
-    <h2>1.	Itt szerepelnie kell egy rövid bemutatkozásnak, max 1-2 mondatban. </h2>
+        <h2>
+            <br>Mostanában hetente kétszer is sportol élőben a tévében. Egy labdát próbál a kapuba juttatni, miközben
+            zöld-fehér mezt visel. A nézők nehezen tudják a nevét kiejteni, ezért magyarul csak Tökmagnak hívják.
+        </h2>
 
+        <h3>
+            <br>
+            <p>Ismert tulajdonságai:</p>
+        </h3>
+        <section>
+            <div id="boxes">
+                <div id="leftbox" class="tulajdonsagok">
+                    <h3>Egyik lába ügyesebb, mint a másik.</h3>
+                </div>
+                <div id="middlebox" class="tulajdonsagok">
+                    <h3>Volt olyan eset, amikor jól pattant a fejéről a labda.</h3>
+                </div>
+                <div id="rightbox" class="tulajdonsagok">
+                    <h3>Akár 90 percre is el tud tűnni a pályán.</h3>
+                </div>
+            </div>
+        </section>
 
-        <img class="images" src="/images/kep1.jpg" alt="">
-        <p>
+        <section>
+            <img class="images" src="/images/home_1.jpg">
+            <img class="images" src="/images/home_2.jpg">
+        </section>
 
-            
-        </p>
-        <img class="images" src="/images/kep2.jpg" alt="">
-
-
-        <div id = "boxes"> 
-                        
-            <div id = "leftbox"> 
-            <h3>tulajdonság1</h3>
-        </div>  
-              
-            <div id = "middlebox"> 
-                <h3>tulajdonság2</h3>
-            </div> 
-              
-            <div id = "rightbox"> 
-                <h3>tulajdonság3</h3>
-            </div> 
-        </div> 
-
-
+        <h3>Látod, hogy eltűnt a pályán? Legalább 90 percig kell nézni és akkor talán lesz egy pillanata:)</h3>
 
     </main>
-    <section></section>
-    <footer>
-        
-        <a href="#nav"> 
-            <button>Felső menübe</button>
-        </a>
 
+    <footer>
+        <a href="#nav">
+            <button><i class="fas fa-level-up-alt fa-2x" style="color:green"></i></button>
+        </a>
     </footer>
 
-    
 </body>
-</html>
 
+</html>

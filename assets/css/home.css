@@ -1,0 +1,26 @@
+img.images {
+    height: 100%;
+    width: 100%;
+}
+
+#leftbox { 
+    float:left;  
+    width:33.33%; 
+    height:100px; 
+    text-align: center;
+} 
+
+#middlebox{ 
+    float:left;  
+    width:33.33%; 
+    height:100px; 
+    text-align: center;
+} 
+
+#rightbox{ 
+    float: left; 
+    width:33.33%; 
+    height:100px; 
+    text-align: center;
+    
+} 
